@@ -1,0 +1,125 @@
+.fondo_contactos{    
+    padding: 20px 0px;
+    width: 100%;
+    height: 600px;
+}
+
+.text-contactos{
+    text-align: center;
+    color: rgb(107, 41, 41);
+}
+
+.contactos{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    height: 600px;
+    
+}
+
+.contact h3{
+    color: white;
+    margin-bottom: 20px;  
+}
+
+.img-contactos{
+    width: 60%;
+    float: left;
+}
+
+.formulario{
+    background: rgb(171, 188, 227);
+    color: black;
+    padding: 10px;
+    float: right;
+    border-radius: 12px;
+}
+
+.formulario h3{
+    text-align: center;
+    color: black;
+}
+
+
+.contact h3 {
+    text-align: center;
+
+}
+
+.contac P{
+    color: black;
+}
+
+input[type="text"], input[type="number"]{
+    width: 100%;
+    height: 35px;
+
+}
+
+input[type="text"]:focus, input[type="number"]:focus{
+    outline: 0 none;
+
+}
+
+textarea{
+    width: 100%;
+}
+
+textarea:focus{
+    outline: 0 none;
+}
+
+input[type="submit"]{
+    background: black;
+    padding: 10px;
+    color: white;
+    width: 300px;
+}
+
+
+/* MEDIAQUERIS PARA TABETS*/
+
+@media only screen and (max-width:980px){
+    .contactos{
+        width: 90%;
+        text-align: center;
+        display:inline-block;
+        height: auto;
+    }
+    .img-contactos{
+        width: 90%;        
+        margin-bottom: 10px;
+        margin-left: 80px;
+    }
+
+    .formulario{
+        width: 80%;        
+        margin: auto;
+    }
+    .fondo_contactos{
+        height: auto;
+    }
+}
+
+
+@media only screen and (max-width:480px){
+    .contactos{
+        width: 100%;
+    }
+    .img-contactos{
+        width: 100%;        
+        margin-bottom: 15px;
+        margin: 0 20px;
+        
+    }
+
+    .formulario{
+        width: 100%;        
+        margin: auto;
+    }
+    .fondo_contactos{
+        height: auto;
+    }
+}
+
